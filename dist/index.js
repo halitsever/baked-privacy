@@ -10,10 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const fastify = require('fastify')({ logger: true });
-fastify.get('/', (request, reply) => __awaiter(void 0, void 0, void 0, function* () {
-    return "Halit Baba";
-}));
-const start = () => __awaiter(void 0, void 0, void 0, function* () {
+const bootstrap = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
         yield fastify.listen({ port: 3000 });
     }
@@ -22,4 +19,4 @@ const start = () => __awaiter(void 0, void 0, void 0, function* () {
         process.exit(1);
     }
 });
-start();
+bootstrap();
