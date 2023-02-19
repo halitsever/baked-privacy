@@ -5,7 +5,8 @@
   "author": "Halit Sever <halitsever@protonmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon build/index.js"
+    "start": "nodemon build/index.js",
+    "build": "tsc"
   },
   "dependencies": {
     "@types/node": "^18.14.0",
