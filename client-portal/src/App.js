@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo}  className="App-logo" alt="logo" />
-        <p>Baked Privacy</p>
+        <p>Baked Privacy | Coming soon...</p>
       </header>
     </div>
   );
